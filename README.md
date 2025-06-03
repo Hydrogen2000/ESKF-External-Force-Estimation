@@ -18,9 +18,9 @@ KF基于以下的离散系统模型：
 
 ### 2. 预测
 
-![1](https://latex.codecogs.com/png.image?\dpi{133}&space;x_{k+1}=F_{x}\cdot&space;x_{k}&plus;F_{u}\cdot(u_{k}&plus;\eta_{k}))
+![3](https://latex.codecogs.com/png.latex?x_%7Bk%2B1%7D%5E%7B-%7D%20%3D%20F_%7Bx%7D%20%5Ccdot%20x_%7Bk%7D%20%2B%20F_%7Bn%7D%20%5Ccdot%20u_%7Bk%7D)
 
-![3](https://latex.codecogs.com/png.image?\dpi{133}&space;P_{k+1}=F_{x}\cdot&space;P_{k}\cdot&space;F_{x}^{T}&plus;F_{n}\cdot&space;Q\cdot&space;F_{n}^{T}) 
+![4](https://latex.codecogs.com/png.image?\dpi{133}&space;P_{k+1}=F_{x}\cdot&space;P_{k}\cdot&space;F_{x}^{T}&plus;F_{n}\cdot&space;Q\cdot&space;F_{n}^{T}) 
 
 
 
