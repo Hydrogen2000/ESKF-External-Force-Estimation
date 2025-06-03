@@ -12,15 +12,16 @@ KF只能应用于**线性系统**，因为需要满足：**高斯噪声经过线
 
 KF基于以下的离散系统模型：
 
-![1](https://latex.codecogs.com/png.image?\dpi{133}&space;x_{k+1}=F_{x}\cdot&space;x_{k}&plus;F_{u}\cdot(u_{k}&plus;\eta_{k}))
+![1](https://latex.codecogs.com/png.latex?x_%7Bk%2B1%7D%20%3D%20F_%7Bx%7D%20%5Ccdot%20x_%7Bk%7D%20%2B%20F_%7Bn%7D%20%5Ccdot%20%28u_%7Bk%7D%20%2B%20%5Ceat_%7Bk%7D%29)
   
-![2](https://latex.codecogs.com/png.image?\dpi{133}&space;z_{k}=H\cdot&space;x_{k}&plus;\nu_{k})
+![2](https://latex.codecogs.com/png.latex?z_%7Bk%7D%20%3D%20H%20%5Ccdot%20x_%7Bk%7D%20%2B%20%5Cnu_%7Bk%7D)
 
 ### 2. 预测
 
 ![3](https://latex.codecogs.com/png.latex?x_%7Bk%2B1%7D%5E%7B-%7D%20%3D%20F_%7Bx%7D%20%5Ccdot%20x_%7Bk%7D%20%2B%20F_%7Bn%7D%20%5Ccdot%20u_%7Bk%7D)
 
-![4](https://latex.codecogs.com/png.image?\dpi{133}&space;P_{k+1}=F_{x}\cdot&space;P_{k}\cdot&space;F_{x}^{T}&plus;F_{n}\cdot&space;Q\cdot&space;F_{n}^{T}) 
+![4](https://latex.codecogs.com/png.latex?P_%7Bk%2B1%7D%20%3D%20F_%7Bx%7D%20%5Ccdot%20P_%7Bk%7D%20%5Ccdot%20F_%7Bx%7D%5ET%20%2B%20F_%7Bn%7D%20%5Ccdot%20Q%20%5Ccdot%20F_%7Bn%7D%5ET)
+
 
 
 
