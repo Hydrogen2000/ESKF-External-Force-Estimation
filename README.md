@@ -10,7 +10,7 @@ KF只能应用于**线性系统**，因为需要满足：**高斯噪声经过线
 
 KF基于以下的离散系统模型：
 
-![1](https://latex.codecogs.com/png.image?\dpi{100}&space;x_{k+1}=F_{x}\cdot&space;x_{k}&plus;F_{u}\cdot(u_{k}&plus;\eta_{k}))
+![1](https://latex.codecogs.com/png.image?\dpi{133}&space;x_{k+1}=F_{x}\cdot&space;x_{k}&plus;F_{u}\cdot(u_{k}&plus;\eta_{k}))
   
-![2](https://latex.codecogs.com/png.image?\dpi{100}&space;z_{k}=H\cdot&space;x_{k}&plus;\nu_{k})
+![2](https://latex.codecogs.com/png.image?\dpi{133}&space;z_{k}=H\cdot&space;x_{k}&plus;\nu_{k})
 
